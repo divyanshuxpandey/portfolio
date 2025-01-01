@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divyanshu Pandey</title>
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- MAIN -->
+    <main>
+      <!-- SIDEBAR -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatars.png"
+              alt="Divyanshu Pandey"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Divyanshu Pandey">
+              Divyanshu <br />
+              Pandey
+            </h1>
+
+            <p class="title">Data Analyst</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="document-text-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Resume</p>
+
+                <a
+                  href="https://drive.google.com/file/d/1umjzliCjzVCoL5KiCmbuyWDGvf0NBI9K/view?usp=sharing"
+                  class="contact-link"
+                  >Download Resume</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Linkedin</p>
+
+                <a
+                  href="https://www.linkedin.com/in/divyanshupandey18/"
+                  class="contact-link"
+                >linkedin.com/in/divyanshupandey18/</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Leetcode</p>
+
+                <a
+                  href="https://leetcode.com/u/divyanshuxpandey/"
+                  class="contact-link"
+                >leetcode.com/u/divyanshuxpandey/</a>
+              </div>
+            </li>
+
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="Code"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Orc-ID</p>
+
+                <a
+                  href="https://orcid.org/my-orcid?orcid=0009-0001-5365-3289"
+                  class="contact-link"
+                >orcid.org/my-orcid</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Github</p>
+
+                <a
+                  href="https://github.com/divyanshuxpandey"
+                  class="contact-link"
+                >github.com/divyanshuxpandey</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:pdivyanshu918@gmail.com" class="contact-link"
+                  >pdivyanshu918@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Instagram</p>
+
+                <a href="https://www.instagram.com/divyanshuxpandey/" class="contact-link"
+                  >instagram.com/divyanshuxpandey/</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Faridabad, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list"></ul>
+        </div>
+      </aside>
+
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text"> <p> I’m Divyanshu Pandey, a final-year B.tech student in Robotics and Artificial Intelligence at J.C. Bose University of Science and Technology, YMCA, Faridabad. 
+            I’ve worked on various technologies like AI, machine learning, and data science, also I'm an active researcher in LLM's and Human Computer Interaction (HCI). </p> 
+            <p> I’ve completed multiple projects and internships this year, where I worked on a social media platform backed by AI for factchecking. I actively participate in hackathons to improve my teamwork and problem-solving skills. 
+            I solve problems on coding platforms like Leetcode and coding 360.
+ </p> </section>
+
+          <!--
+          - service
+        -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+        
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/icon-ai.svg"
+                  alt="AI/ML icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning (AI/ML)</h4>
+        
+                <p class="service-item-text">
+                  Leveraging AI and ML to build intelligent systems that learn and improve from data.
+                </p>
+              </div>
+            </li>
+        
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/icon-research.svg"
+                  alt="Research icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research on LLMs and Multi-modal</h4>
+        
+                <p class="service-item-text">
+                  Conducting advanced research on LLMs & Multi-modal to enhance their capabilities across domains.
+                </p>
+              </div>
+            </li>
+        
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/icon-data.svg"
+                  alt="Data science icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+        
+                <p class="service-item-text">
+                  Applying data science to extract insights from complex data sets for informed decisions.
+                </p>
+              </div>
+            </li>
+        
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/icon-dev.svg"
+                  alt="Web development icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+        
+                <p class="service-item-text">
+                  Creating websites that integrate front-end and back-end technologies for smooth user experiences.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+          <!--
+          - Endorsements 
+        -->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Endorsements </h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Suv Patra"
+                    width="60"
+                    data-testimonials-avatar
+                  />
+                </figure>
+
+                <h4
+                  class="h4 testimonials-item-title"
+                  data-testimonials-title
+                >
+                  Dr. Sanjeev Goyal (Associate Professor, J.C. Bose University of Science and Technology, YMCA)
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I have had the pleasure of working with Divyanshu Pandey as the Student Coordinator at the IIIS Incubation Center. 
+                    He has demonstrated exceptional leadership, organizational skills, and a strong passion for technology and innovation. 
+                    Divyanshu has been instrumental in driving various projects and fostering collaboration within the center. 
+                    His ability to manage complex tasks while supporting peers and faculty has been commendable. 
+                    His dedication and technical expertise make him a valuable asset to any team, and I am confident he will continue to excel in his future endeavors.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Suv Patra"
+                    width="60"
+                    data-testimonials-avatar
+                  />
+                </figure>
+
+                <h4
+                  class="h4 testimonials-item-title"
+                  data-testimonials-title
+                >
+                  Dr. Rohit Tripathi (Assistant Professor, J.C. Bose University of Science and Technology, YMCA)
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I have had the opportunity to work with Divyanshu Pandey on various projects related to IoT and AI/ML technologies, and 
+                    I am truly impressed by his technical acumen and innovative mindset. Divyanshu has consistently demonstrated an in-depth understanding of 
+                    the intersection between IoT and AI/ML, applying these technologies effectively to solve real-world problems. His ability to integrate complex 
+                    systems, analyze data, and develop intelligent solutions speaks volumes about his skills. Divyanshu’s passion for advancing technology and 
+                    his dedication to pushing boundaries make him an exceptional talent in this field.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Suv Patra"
+                    width="60"
+                    data-testimonials-avatar
+                  />
+                </figure>
+
+                <h4
+                  class="h4 testimonials-item-title"
+                  data-testimonials-title
+                >
+                  Dr. Yogendra Arya (Associate Professor, J.C. Bose University of Science and Technology, YMCA)
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Divyanshu Pandey's expertise was pivotal in our LLM project for the hackathon. 
+                    His deep knowledge of machine learning and large language models significantly 
+                    enhanced our project’s performance. His innovative solutions streamlined 
+                    our model's integration and optimization, resulting in impressive results during 
+                    the competition. His ability to tackle complex problems with creative approaches 
+                    was invaluable, and his contributions were a key factor in our success. I highly 
+                    recommend Sahil for any advanced AI and machine learning projects!
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+        - testimonials modal
+      -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img
+                  src="./assets/images/avatar-1.png"
+                  alt="Daniel lewis"
+                  width="80"
+                  data-modal-img
+                />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Darshpreet Singh</h4>
+
+              <time datetime="2021-06-14">25 Oct, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  A huge thank you to Divyanshu for his invaluable contributions and support. 
+                  Working with him was a fantastic experience, and I highly recommend his 
+                  expertise to anyone looking to excel in advanced AI and machine learning projects! 🚀
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--
+        - clients
+      -->
+
+      </article>
+
+      <!--
+      - #RESUME
+    -->
+
+    <article class="resume" data-page="resume">
+      <header>
+        <h2 class="h2 article-title">Resume</h2>
+      </header>
+    
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+    
+          <h3 class="h3">Education</h3>
+        </div>
+    
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              J.C. Bose University of Science and Technology, YMCA, Faridabad.
+            </h4>
+    
+            <span>2021 — 2025 (Expected)</span>
+    
+            <p class="timeline-text">
+              Bachelor of Technology in Robotics and Artificial Intelligence — SGPA: 7.0/10
+            </p>
+          </li>
+        </ol>
+
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Shreeram Model School, Faridabad.
+            </h4>
+    
+            <span>2019 — 2021 (Completed)</span>
+    
+            <p class="timeline-text">
+              Senior Secondary School of Education (CBSE) — CGPA: 10/10 (95.40%)
+            </p>
+          </li>
+        </ol>
+
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Gold Field Public School, Faridabad.
+            </h4>
+    
+            <span>2007 — 2019 (Completed)</span>
+    
+            <p class="timeline-text">
+              Secondary School of Education — CGPA: 10/10 (95.80%)
+            </p>
+          </li>
+        </ol>
+      </section>
+    
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="briefcase-outline"></ion-icon>
+          </div>
+    
+          <h3 class="h3">Experience</h3>
+        </div>
+    
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Data Analyst Intern - <i> Escorts Kubota India Limited</i>
+            </h4>
+    
+            <span>Jun 2024 — Aug 2024</span>
+    
+            <p class="timeline-text">
+              1. Collaborated on Data analysis in production department for increasing 2-5% accuracy in production. <br />
+              2. Built an LLM-driven fact-checking algorithm using the raw dataset, cutting costs and inference time by 10%. <br />
+              3. Crafted a collaborative filtering recommendation engine, increasing user engagement by 30%, daily active participation and modifications.
+            </p>
+          </li>
+        </ol>
+  
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Machine Learning Research Intern - <i>Indraprastha Institute of Information Technology, Delhi (IIITD)</i>
+            </h4>
+    
+            <span>Aug 2023 — Dec 2023</span>
+    
+            <p class="timeline-text">
+              1. Collaborated on resume building maker and parsing checker for new deployment in industries. <br />
+              2. Built an LLM-driven fact-checking algorithm using industrial dataset and maintaining the accuracy. <br />
+              3. Worked on real time data monitoring and algorithm making for industrial purpose.
+            </p>
+          </li>
+        </ol>
+
+      </section>
+
+    
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="star-outline"></ion-icon>
+          </div>
+    
+          <h3 class="h3">Projects</h3>
+        </div>
+    
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              mMARS: multi-Modal AI Research Software
+            </h4>
+    
+            <span>Sep 2024 — Dec 2024</span>
+    
+            <p class="timeline-text">
+              1. mMARS serves as a robust platform, integrating multiple modalities to streamline AI research workflows, enhancing productivity and innovation for researchers. <br />
+              2. With an intuitive interface and seamless integration of advanced AI tools, mMARS simplifies complex research processes, making it accessible for both beginners & professionals. <br />
+              3. Deployed RAG pipeline, Built to evolve with the latest advancements in AI, mMARS positions itself as a versatile tool for tackling cutting-edge challenges in multi-modal research.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Language Translation using Ollama (RAG model)
+            </h4>
+    
+            <span>Jul 2024– Sep 2024</span>
+    
+            <p class="timeline-text">
+              1. The project leverages Ollama's capabilities to deliver fast and accurate multilingual translations. <br />
+              2. Designed with simplicity, it ensures ease of integration for developers and end-users alike. <br />
+              3. The system is adaptable to diverse translation needs, supporting future enhancements and broader language coverage.
+            </p>
+          </li>
+          
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Supply Chain Management using ML and Tableau
+            </h4>
+    
+            <span>Aug 2024 — Dec 2024</span>
+    
+            <p class="timeline-text">
+              1. This project integrates machine learning and Tableau to provide actionable insights, enabling optimized supply chain operations. <br />
+              2. Predictive analytics and visual dashboards streamline inventory management, demand forecasting, and overall supply chain performance. <br />
+              3. The system is adaptable for various industries, supporting customization for diverse supply chain requirements.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Smart waste management using machine learning
+            </h4>
+    
+            <span>Feb 2024 — Jun 2024</span>
+    
+            <p class="timeline-text">
+              1. This project integrates machine learning with waste management system to diffentiate garbage. <br />
+              2. Predictive analytics and visual dashboards streamline inventory management, demand forecasting, and overall supply chain performance. <br />
+              3. The system is adaptable for various industries, supporting customization for diverse supply chain requirements.
+            </p>
+          </li>
+
+    
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Person Identification and verification using machine learning
+            </h4>
+    
+            <span>Aug 2023 — Dec 2023</span>
+    
+            <p class="timeline-text">
+              1. Developed an ATS-friendly resume generator with a conversational interface for resume fine-tuning using LLMs. <br />
+              2. Engineered a scalable resume parser for various formats, handling 100s of resumes, saving 30-60 mins per resume. <br />
+              3. Directed features allowing users to chat with the LLM for refinements, score resumes & download the final version.
+            </p>
+          </li>
+    
+        </ol>
+      </section>
+    
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="build-outline"></ion-icon>
+          </div>
+    
+          <h3 class="h3">Skills</h3>
+        </div>
+    
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Programming & Web Technologies
+            </h4>
+    
+            <p class="timeline-text">
+              Python, C++, JavaScript, HTML, CSS, MongoBD
+            </p>
+          </li>
+    
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              AI & Machine Learning
+            </h4>
+    
+            <p class="timeline-text">
+              TensorFlow, PyTorch, Scikit-learn, LLMs, NLP, Computer Vision, GANs, Reinforcement Learning, Federated Machine Learning
+            </p>
+          </li>
+    
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Data Science & Analytics
+            </h4>
+    
+            <p class="timeline-text">
+              Pandas, NumPy, Matplotlib, Seaborn, SQL, Data Visualization, Tableau
+            </p>
+          </li>
+    
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Cloud & DevOps
+            </h4>
+    
+            <p class="timeline-text">
+              AWS (Bedrock, StepFunctions), Docker, Git CI/CD
+            </p>
+          </li>
+    
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Frameworks & Tools
+            </h4>
+    
+            <p class="timeline-text">
+              Spring Boot, LangChain, HuggingFace, OpenCV, React, RESTful APIs, Ollama, Angular, Selenium, Groovy
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Coursework
+            </h4>
+    
+            <p class="timeline-text">
+              Data Structures & Algorithms, Machine Learning, Data Science, Object-Oriented Programming (OOPS), Deep Learning Architectures, Database Management Systems, Computer Networks & Robotics.
+            </p>
+          </li>
+        </ol>
+      </section>
+    </article>
+    
+
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>AI / ML</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Blockchain</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+          
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ai / ml"
+              >
+                <div class="content-card info-box">
+                  <button
+                    class="skill-button"
+                    data-code-btn
+                    data-link="https://github.com/divyanshuxpandey/mMARS-multi_Modal_AI_research_software"
+                  >
+                    <svg
+                      viewBox="0 0 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      fill="#000000"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <title>github [#142]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g
+                          id="Page-1"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                        >
+                          <g
+                            id="Dribbble-Light-Preview"
+                            transform="translate(-140.000000, -7559.000000)"
+                            fill="#000000"
+                          >
+                            <g
+                              id="icons"
+                              transform="translate(56.000000, 160.000000)"
+                            >
+                              <path
+                                d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                id="github-[#142]"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  
+
+                    Github
+                  </button>
+                </div>
+                <a href="#">
+                  <figure class="project-img">
+                    <div
+                      class="project-item-icon-box"
+                      data-project-btn
+                      data-link="https://github.com/divyanshuxpandey/mMARS-multi_Modal_AI_research_software"
+                    >
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Project-1.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title"> mMARS- multi-Modal AI Research Software</h3>
+
+                  <p class="project-category">AI / ML</p>
+                </a>
+              </li>
+              <!-- Here it starts -->
+
+
+              <li class="project-item active" data-filter-item data-category="web development">
+                <div class="content-card info-box">
+                  <button class="skill-button" data-code-btn data-link="https://github.com/divyanshuxpandey/Language_translation_using_ollama">
+                    <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                      <g id="SVGRepo_iconCarrier">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
+                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                              <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]"></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                    Github
+                  </button>
+                </div>
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-project-btn data-link="https://github.com/divyanshuxpandey/Language_translation_using_ollama">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Project-8.png" alt="finance" loading="lazy" />
+                  </figure>
+                  <h3 class="project-title">Language Translator using ollama</h3>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <!-- Here it starts -->
+
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ai / ml"
+              >
+                <div class="content-card info-box">
+                  <button
+                    class="skill-button"
+                    data-code-btn
+                    data-link="https://github.com/divyanshuxpandey/supply_chain_management_using_ML_and_Tableau"
+                  >
+                    <svg
+                      viewBox="0 0 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      fill="#000000"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <title>github [#142]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g
+                          id="Page-1"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                        >
+                          <g
+                            id="Dribbble-Light-Preview"
+                            transform="translate(-140.000000, -7559.000000)"
+                            fill="#000000"
+                          >
+                            <g
+                              id="icons"
+                              transform="translate(56.000000, 160.000000)"
+                            >
+                              <path
+                                d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                id="github-[#142]"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+
+                    Github
+                  </button>
+                </div>
+                <a href="#">
+                  <figure class="project-img">
+                    <div
+                      class="project-item-icon-box"
+                      data-project-btn
+                      data-link="https://github.com/divyanshuxpandey/supply_chain_management_using_ML_and_Tableau"
+                    >
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Project-2.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Supply chain management system using machine learning </h3>
+
+                  <p class="project-category">AI / ML</p>
+                </a>
+              </li>
+
+              <!-- Here it ends -->
+
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ai / ml"
+              >
+                <div class="content-card info-box">
+                  <button
+                    class="skill-button"
+                    data-code-btn
+                    data-link="https://github.com/divyanshuxpandey/keras_h5"
+                  >
+                    <svg
+                      viewBox="0 0 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      fill="#000000"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <title>github [#142]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g
+                          id="Page-1"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                        >
+                          <g
+                            id="Dribbble-Light-Preview"
+                            transform="translate(-140.000000, -7559.000000)"
+                            fill="#000000"
+                          >
+                            <g
+                              id="icons"
+                              transform="translate(56.000000, 160.000000)"
+                            >
+                              <path
+                                d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                id="github-[#142]"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+
+                    Github
+                  </button>
+                </div>
+                <a href="#">
+                  <figure class="project-img">
+                    <div
+                      class="project-item-icon-box"
+                      data-project-btn
+                      data-link="https://github.com/divyanshuxpandey/keras_h5"
+                    >
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Project-4.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Smart Waste Management System using Machine Learning </h3>
+
+                  <p class="project-category">AI / ML</p>
+                </a>
+              </li>
+
+              <!--END-->
+
+              <!--START NEXT-->
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ai / ml"
+              >
+                <div class="content-card info-box">
+                  <button
+                    class="skill-button"
+                    data-code-btn
+                    data-link="https://github.com/divyanshuxpandey/-Person-Identification-and-Verification-using-Machine-Learning"
+                  >
+                    <svg
+                      viewBox="0 0 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      fill="#000000"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <title>github [#142]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g
+                          id="Page-1"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                        >
+                          <g
+                            id="Dribbble-Light-Preview"
+                            transform="translate(-140.000000, -7559.000000)"
+                            fill="#000000"
+                          >
+                            <g
+                              id="icons"
+                              transform="translate(56.000000, 160.000000)"
+                            >
+                              <path
+                                d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                id="github-[#142]"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+
+                    Github
+                  </button>
+                </div>
+                <a href="#">
+                  <figure class="project-img">
+                    <div
+                      class="project-item-icon-box"
+                      data-project-btn
+                      data-link="https://github.com/divyanshuxpandey/-Person-Identification-and-Verification-using-Machine-Learning"
+                    >
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Project-3.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title"> Person Identification System usinf Machine Learning</h3>
+
+                  <p class="project-category">AI / ML</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form
+              action="https://formspree.io/f/xrbbyogl"
+              method="post"
+              class="form"
+              data-form
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                rows="15"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
